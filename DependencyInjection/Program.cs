@@ -11,7 +11,7 @@ namespace DependencyInjection
     {
         static void Main(string[] args)
         {
-            INotificationService notificationService = new NotificationService();
+            NotificationService notificationService = new NotificationService();
             User user = new User("Anand", notificationService);
             user.PrintName();
 
