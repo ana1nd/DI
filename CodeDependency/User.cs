@@ -26,7 +26,6 @@ namespace DependencyInjection
         {
             this.Username = name;
             this.consoleNotification.ChangedName(this);
-
         }
     }
 }
